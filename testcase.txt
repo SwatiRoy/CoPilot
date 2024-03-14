@@ -1,0 +1,40 @@
+Here's a basic test plan for testing Gmail login functionality:
+
+Test Case: Valid Login
+
+Description: Test if a user can log in with valid credentials.
+Steps:
+Navigate to the Gmail login page.
+Enter a valid email and click "Next".
+Enter a valid password and click "Next".
+Expected Result: The user should be logged in and redirected to the inbox.
+Test Case: Invalid Email
+
+Description: Test if the system correctly handles an invalid email.
+Steps:
+Navigate to the Gmail login page.
+Enter an invalid email and click "Next".
+Expected Result: An error message should be displayed indicating the email is not valid.
+Test Case: Invalid Password
+
+Description: Test if the system correctly handles an invalid password.
+Steps:
+Navigate to the Gmail login page.
+Enter a valid email and click "Next".
+Enter an invalid password and click "Next".
+Expected Result: An error message should be displayed indicating the password is incorrect.
+Test Case: Empty Email
+
+Description: Test if the system correctly handles an empty email field.
+Steps:
+Navigate to the Gmail login page.
+Leave the email field empty and click "Next".
+Expected Result: An error message should be displayed indicating the email field cannot be empty.
+Test Case: Empty Password
+
+Description: Test if the system correctly handles an empty password field.
+Steps:
+Navigate to the Gmail login page.
+Enter a valid email and click "Next".
+Leave the password field empty and click "Next".
+Expected Result: An error message should be displayed indicating the password field cannot be empty.
